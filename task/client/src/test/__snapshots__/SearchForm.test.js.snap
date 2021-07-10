@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <div>
+      <h1
+        className="mainTitle"
+      >
+        iTunes Search App
+      </h1>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg col-md-10"
+      >
+        <div
+          className="mb-3 input-group input-group-lg"
+        >
+          <input
+            className="form-control"
+            name="search"
+            onChange={[Function]}
+            placeholder="Search Song, Artist, Movie, eBook, Podcast, Short film or TV show "
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <button
+        className="btn btn-outline-info btn-sm"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <div>
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <h2
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Items
+              </h2>
+            </div>
+            <div
+              className="itemFav row"
+            >
+              <div
+                className="col"
+              >
+                <ul />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-3"
+      >
+        <div>
+          <div
+            className="container"
+          >
+             
+            <h2>
+              Favorites
+            </h2>
+            <div
+              className="card"
+              style={
+                Object {
+                  "backgroundColor": "#d62828",
+                }
+              }
+            >
+              <div
+                className="row"
+              >
+                <ul />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="footer"
+      >
+        <h6>
+          iTunes search app created using React.js, Node.js, Express, HTML, JavaScript and CSS.
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;
